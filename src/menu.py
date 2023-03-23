@@ -2,7 +2,7 @@ from PIL import Image, ImageDraw, ImageFont
 from time import sleep
 from pitop import Pitop
 from subprocess import call
-from menuhelp import menuPoint
+from menuhelp import menuPoint, menuPage
 
 pitop = Pitop()
 miniscreen = pitop.miniscreen
